@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+}
+.markup-container{
+    width: 100%;
+    height: 1000px;
+}
+.first-row{
+    background-color: chartreuse;
+    width: 100%;
+    height: 150px;
+}
+.menu{
+    float: left;
+    width: 50%;
+    height: 150px;
+    border: 1px solid red;
+}
+.inner-menu{
+    margin: 2px;
+    background-color: violet;
+    height: 98%;
+}
+.menu-content{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 36px; 
+}
+.header{
+    float: left;
+    width: 50%;
+    height: 150px;
+    border: 1px solid blue;
+}
+.inner-header{
+    margin: 2px;
+    background-color: violet;
+    height: 98%;
+}
+.teacher-header{
+    font-size: 48px;
+    font-weight: bold;
+}
+.content-block:after {
+    float: none;
+    content: "";
+    display: table;
+    clear: both;
+  }
+.content{
+    width: 100%;
+    height: 450px;
+    background-color: purple;
+    border: 1px solid yellow;
+}
+.inner-content-1{  
+    float: left;
+    width: 25%;
+    height: 98%;
+}
+.inner-content-2{ 
+    float: left;
+    width: 25%; 
+    height: 98%;
+}
+.inner-content-3{ 
+    float: left;
+    width: 25%; 
+    height: 98%;
+}
+.inner-content-4{ 
+    float: left;
+    width: 25%; 
+    height: 98%;
+}
+.biografy{
+    margin: 5px;
+    background-color: yellow;
+    height: 100%;
+   
+}
+.bio-info{
+    padding: 3px;
+    font-size: 24px;
+    text-align: justify;
+}
+.subjects{
+    margin: 5px;
+    background-color: yellow;
+    height: 100%;
+}
+.sub-info{
+    padding: 3px;
+    font-size: 24px;
+    text-align: justify;
+}
+.schedule{
+    margin: 5px;
+    background-color: yellow;
+    height: 100%;
+}
+.science-list{
+    margin: 5px;
+    background-color: yellow;
+    height: 100%;
+    font-size: 23px;
+}
+.last-row{
+    background-color: chartreuse;
+    width: 100%;
+    height: 150px;
+}
+.extra-section{
+    float: left;
+    width: 50%;
+    height: 150px;
+    border: 1px solid red;
+}
+.ex-section{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 36px;   
+}
+.footer{
+    float: left;
+    width: 50%;
+    height: 150px;
+    border: 1px solid blue;
+}
+.foot-info{
+    padding-top: 10px;
+    text-align: left;
+    font-size: 20px;
+}
